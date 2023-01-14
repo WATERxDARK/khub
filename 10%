@@ -1,0 +1,87 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/kickTh/New-Ui/main/discord%20lib%20(1).txt")()
+
+local win = DiscordLib:Window("k hub")
+
+local serv = win:Server("Main", "")
+
+local btns = serv:Channel("TP")
+
+btns:Button("Tpกล่อง1", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-223.466888, -11.6447449, 454.436798, -0.168400288, 0, 0.985718668, 0, 1, 0, -0.985718668, 0, -0.168400288)
+
+end)
+
+btns:Button("Tpกล่อง2", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(359.566711, -11.6447449, 488.53476, -0.178942561, 0, -0.983859539, 0, 1, 0, 0.983859539, 0, -0.178942561)
+
+end)
+
+btns:Button("Tpกล่อง3", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(466.135406, -11.6447449, -237.107819, 0.178942621, 0, 0.983859539, 0, 1, 0, -0.983859539, 0, 0.1728)
+
+จบ)
+
+btns:ปุ่ม("Tp box4", ฟังก์ชัน()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(497.406006, -11.6447449, 350.979889, 0.178942621, 0, 0.983859539, 0, 1, 0, -0.983859539, 0, 0.1728)
+
+จบ)
+
+btns:ปุ่ม("Tp Box5", ฟังก์ชัน()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-315.854218, -11.6447449, -324.121887, -0.168400288, 0, 0.985718668, 0, 1, 0, -0.985718668, 0, -000.168)
+
+จบ)
+
+btns:ปุ่ม("กล่อง Tp6", ฟังก์ชัน()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-245.914093, -11.6447449, -306.646759, 0.98386544, -0, -0.178910077, 0, 1, -0, 0.178910077, 08, 0.943)
+
+จบ)
+
+btns:ปุ่ม("กล่อง Tp7", ฟังก์ชัน()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-336.880798, -11.6447449, 336.851562, -0.168400288, 0, 0.985718668, 0, 1, 0, -0.985718668, 0, -000.168)
+
+จบ)
+
+btns:ปุ่ม("Tp box8", ฟังก์ชัน()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291.998138, -11.6447449, -369.403809, -0.983865738, 0, 0.178910077, 0, 1, 0, -0.178910077, 068, -05.983)
+
+จบ)
+
+local tgls = serv: Channel ("InfiniteJump และความเร็ว")
+
+tgls:Button("InfiniteJump", ฟังก์ชัน()
+
+InfiniteJumpEnabled โลคัล = จริง
+
+เกม: GetService ("UserInputService").JumpRequest:เชื่อมต่อ (ฟังก์ชัน ()
+
+    ถ้า InfiniteJumpEnabled แล้ว
+
+        เกม:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("กระโดด")
+
+    จบ
+
+จบ)
+
+จบ)
+
+tgls:Button("ความเร็วรอบ", ฟังก์ชัน()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
+จบ)
+
+local sldrs = serv:Channel("tpหาเก้าอี้")
+
+btns:ปุ่ม("เก้าอี้", ฟังก์ชั่น()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(90.24329376220703, -6.762874603271484, 137.6051788330078)
+
+จบ)...
